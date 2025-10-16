@@ -32,7 +32,7 @@ section {
 }
 
 h2 {
-    color: rgb(87, 98, 114);
+    color: rgb(61, 43, 226);
     border-bottom: 2px solid black;
     margin-bottom: 5px;
 }
@@ -63,15 +63,6 @@ ul {
     border-radius: 5px;
     font-size: 14px;    
 }
-
-.work  li {
-        background-color: teal;
-        color: aliceblue;
-        padding: 8px 12px;
-        border-radius: 5px;
-        font-size: 14px;    
-}
-
 
 footer  {
    text-align: center;
