@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.caixa {
+  border: 2px solid red;
+  padding: 20px;
+  margin: 30px auto;
+  width: 400px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.h2 {
+  color: white;
+}
+
+.p {
+  color: #ddd;
+}
+
+.link-netflix {
+  display: inline-block;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.link-netflix {
+  background: darkred;
+}
+
+.logo {
+  border: 15px solid darkred ;
+  border-radius: 15px;
+}

@@ -1,0 +1,65 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: blueviolet;
+    margin-bottom: 40px;
+}
+
+/* caixa com margin */
+.margin {
+     width: 300px;
+     background-color: violet; 
+     margin: 65px auto;
+     padding: 40px; 
+     border: 16px solid black;
+}
+
+.margin2 {
+    width: 300px;
+    background-color: rgb(168, 130, 238); 
+    margin: 67px auto;
+    padding: 20px; 
+    border: 16px solid black;
+}
+
+.margin3 {
+    width: 300px;
+    background-color: rgb(74, 30, 177); 
+    margin: 77px auto;
+    padding: 16px; 
+    border: 16px solid black;
+}
+
+ /*caixa com padding  */
+.Padding {
+    width: 300px;
+    background-color: violet; 
+    margin: 50px auto;
+    padding: 10px; 
+    border: 16px solid black;
+}
+
+.Padding2 {
+    width: 300px;
+    background-color: rgb(131, 51, 131); 
+    margin: 30px auto;
+    padding: 29px; 
+    border: 16px solid black;
+}
+
+.Padding3 {
+    width: 300px;
+    background-color: rgb(59, 12, 59); 
+    margin: 26px auto;
+    padding: 40px; 
+    border: 16px solid black;
+}
+
+p {
+    font-size: 15px
+}

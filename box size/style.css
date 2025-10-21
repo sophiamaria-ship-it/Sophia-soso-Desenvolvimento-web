@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(122, 40, 68);
+}
+
+
+header {  
+    background-color: palevioletred;
+    padding: 20px;
+    color:rgb(156, 65, 96);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* --- Pseudoclasses---
+hover serve quando se passa o mouse por cima*/
+nav a:hover  { 
+    text-decoration: underline;
+    color: rgb(73, 34, 47);
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: palevioletred;
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(255, 0, 128);
+} 
+
+button:active {
+    background-color: pink;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid palevioletred;
+}
+/* aa barrinha quando passa o cursor fica da cor que eu quro  */
+input:focus {
+    border-color: red;
+    outline: none;
+}
+
+/* --- Pseudoelemnetos--- */
+
+.titulo-estilizado::before {
+    content: "🔱";
+    color: goldenrod;
+}  
+
+.titulo-estilizado::after {
+    content: "🔱";
+    color: goldenrod;
+}  
+
+.text::first-letter {
+    font-size: 2em;
+    color: rgb(163, 43, 83);
+    font-weight: bold;
+}
+
+.text::first-line {
+    font-weight: bold;
+    color: rgb(134, 37, 97);
+}
+
+footer {
+    text-align: center;
+    padding:  10px;
+    background-color: palevioletred;
+    color: rgb(156, 65, 96);
+    margin-top: 30px;
+}

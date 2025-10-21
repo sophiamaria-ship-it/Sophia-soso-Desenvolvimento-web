@@ -1,0 +1,46 @@
+.body { 
+    background-image: url(imagem.jpg); background-repeat: no-repeat;
+   background-attachment: fixed; background-size: cover;
+}
+   .h1{ 
+       font-family: "chau philomene one",sans-serif;
+       color:aqua; font-style: italic; 
+       text-decoration: underline overline olive;
+       padding: 5px;
+       justify-content: center;
+       display: flex;
+       margin: 14px;
+     } 
+
+
+   .h2{ 
+       font-family: "franklin gothic medium", 'arial narrow', arial, sans-serif;
+       color:aquamarine
+     }
+
+   .h3{ 
+       font-family: 'Courier New', Courier, monospace;
+       color:blue
+     }
+
+   .ul{ 
+       color:aliceblue
+     }
+
+   .img{ 
+       width:290px; 
+       height: 370px; 
+       border: goldenrod solid 15px;
+      }
+
+      .p{
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       color: blueviolet;
+       text-decoration: underline purple;
+       font-size: large;
+   }
+
+.div {
+   display: flex; 
+   justify-content: center;
+}
