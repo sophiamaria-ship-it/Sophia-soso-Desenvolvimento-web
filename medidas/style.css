@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: darkmagenta;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    overflow: auto;
+}
+ 
+.caixa {
+    width: 48%;
+    height: 130px;
+    background-color: purple;
+    color: aliceblue;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px;
+}
+
+.esquerda {
+    float: left;
+}
+
+.direita {
+    float: right;
+}
+
+p {
+    display: block;
+
+}
+
+/* VW usa pra tamanho e VH largura */
