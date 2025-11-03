@@ -1,0 +1,56 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: pink;
+    color: rgb(115, 70, 124);
+}
+
+header, footer {
+    text-align: center;
+    background-color: rgb(255, 158, 190);
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.item {
+    background-color: rgb(221, 179, 199);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+    /* centralizando o texto dentro da célula */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgb(133, 103, 103);
+}
+
+.container {
+    display: grid; /* essa funçao ative o grid */
+    grid-template-columns: 1fr 1fr 1fr; /* 3 colunas de tamanhos proporcional */
+    grid-template-rows: 50px 50px; /* 2 linhas fixas */
+    gap: 15px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    margin: auto 20px;
+    max-width: 900px;
+    border-radius: 25px;
+}
+
+
+.item1 {background-color: red}
+.item2 {background-color: orangered}
+.item3 {background-color: darkgoldenrod}
+.item4 {background-color: green}
+.item5 {background-color: blue}
+.item6 {background-color: blueviolet}
