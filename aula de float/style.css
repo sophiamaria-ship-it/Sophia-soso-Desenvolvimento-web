@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    overflow: auto;
+}
+
+.caixa {
+    width: 45%;
+    height: 150px;
+    background-color: rgb(12, 12, 48);
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px;
+}
+
+.esquerda {
+    float: left;
+}
+
+.direita {
+    float: right;
+}
+
+p {
+    display: block;
+    clear: both;
+}
