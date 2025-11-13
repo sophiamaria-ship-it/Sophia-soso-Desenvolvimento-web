@@ -1,0 +1,79 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;    
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ff4ac48a-e3f6-4876-9cd7-3146a47cc5b7/dhmm60h-aa7d8a5f-8a36-4bbb-a419-d893c56c765e.jpg/v1/fill/w_1192,h_670,q_70,strp/south_park_bus_stop_background__by_fnaf6512_dhmm60h-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2ZmNGFjNDhhLWUzZjYtNDg3Ni05Y2Q3LTMxNDZhNDdjYzViNy9kaG1tNjBoLWFhN2Q4YTVmLThhMzYtNGJiYi1hNDE5LWQ4OTNjNTZjNzY1ZS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.OW-1FBFHob4Ht_5_rw69JMMKi2rBKjtCWv13P2PkD5o)
+}
+
+.container {
+    text-align: center;
+    background-color: paleturquoise;
+    border-radius: 8px;
+    padding: 20PX;
+    box-shadow: 0 4px 8px rgb(120, 165, 165);
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid rgb(155, 199, 224);
+}
+
+h1 {
+    color: rgb(35, 70, 70);
+    font-size: 2.2em;
+}
+
+p {
+    color: rgb(35, 70, 70);
+    font-size: 1.2em;
+}
+
+button {
+    background-color: rgb(76, 201, 76);
+    font-size: 1em;
+    color: green;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: yellow;
+    color: rgb(81, 104, 36);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background-color: azure;
+    color: yellowgreen;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px black;
+}
+
+/* estilo p nosso campo de entrada */
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: inset 0px 4px 10px;
+    transition: border-color 0.4s ease; 
+    outline: invert;
+}
